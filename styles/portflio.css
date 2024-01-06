@@ -61,6 +61,7 @@ nav a {
 }
 .banner-content{
     /* max-width: 500px; */
+    
 }
 .banner .profile-pic{
     width: 500px;
@@ -90,7 +91,10 @@ nav a {
 }
 
 /* main body section style */
-
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
 
 /* about section style */
 .about{
@@ -112,4 +116,11 @@ nav a {
     text-align: center;
     font-size: 18px;
     line-height: 30px; /* 166.667% */
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
