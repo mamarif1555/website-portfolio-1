@@ -122,5 +122,23 @@ nav a {
     justify-content: space-around;
 }
 .about-info{
+    font-size:medium;
     text-align: center;
+    color: #757575;
+    font-size: 16px;
+    line-height: 30px; /* 150% */
+}
+.info-title{
+    margin-bottom: 0;
+}
+.info-description{
+    margin-top: 0;
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+#this-is-section{
+    padding: 30px 150px;
+    
 }
