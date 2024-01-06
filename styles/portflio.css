@@ -17,11 +17,13 @@ body {
     color:white;
     padding: 15px 35px;
 }
+
 /* ul li style */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav > ul{
     display:flex;
@@ -37,12 +39,23 @@ nav a {
 }
 /* nav relatet styles    */
 
-nav {
-    display:flex;
-}
+
 .nav-title {
     color: #181818);
     font-size: 45px;
     font-weight: 800;
     
+}
+/*  header related style */
+.header {
+    background-color:#FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+ width: 500px;
+ 
 }
