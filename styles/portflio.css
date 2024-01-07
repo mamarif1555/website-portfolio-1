@@ -10,7 +10,7 @@ body {
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;
+    border: 0px;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -72,7 +72,7 @@ nav a {
     
     font-size: 45px;
     color: #474747;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .banner-title{
     color:  #181818);
@@ -103,7 +103,7 @@ main section{
     padding:130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    margin: 130px 0px;
 }
 .section-title{
     color: #181818);
@@ -131,7 +131,7 @@ main section{
     line-height: 30px; /* 150% */
 }
 .info-title{
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .info-description{
     margin-top: 0;
@@ -163,4 +163,47 @@ main section{
    font-size: 30px;
    font-weight: 700;
    line-height: normal;
+   margin-top: 0px;
+   margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-item-title{
+    color:  #474747;
+   font-size: 25px;
+   font-weight: 700;
+   margin-top: 0px;
+   margin-bottom: 10px;
+   
+}
+.resume-item-institute{
+    color: #757575;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 0px;
+   margin-bottom: 20px;
+
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-top: 0px;
+   margin-bottom: 0px;
+}
+.resume-container hr{
+    background: #D1D1D1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-title{
+    margin-bottom: 110px;
+}
+.download-cv{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 0px;
 }
