@@ -272,3 +272,34 @@ textarea{
     font-size: 16px;
     line-height: 28px; /* 175% */
 }
+
+
+
+
+
+
+
+
+/* Rasponsive Media Quary Starte */
+
+/* Rasponsive small device */
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skills-container,.resume-container,{
+        flex-direction: column;
+    }
+    #this-is-section{
+        padding: 20px;
+    }
+    .footer-column{
+        flex-direction: column;
+        padding: 10px;
+    
+    }
+    .footer-column{
+        width: 100%;
+    }
+}
