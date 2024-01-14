@@ -288,18 +288,28 @@ textarea{
     display: none;
 }
 @media screen and (max-width:576px) {
-    .skills-container,.resume-container,{
+    .skills-container,.resume-container,footer,.about-info-container{
         flex-direction: column;
     }
+    
     #this-is-section{
         padding: 20px;
     }
-    .footer-column{
-        flex-direction: column;
-        padding: 10px;
-    
+    footer,.about{
+      padding: 10px;
     }
     .footer-column{
         width: 100%;
     }
+    .contact input[type="text"],.contact input[type="email"],
+     textarea{
+    width: 50%;
+}
+    
+}
+@media screen and(min-width:576) and (max-width:992) {
+    footer{
+        padding: 30px;
+    }
+    
 }
